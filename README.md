@@ -12,7 +12,7 @@ Usage: `python qrmaker.py <MODE> <FILENAME> <"QR DATA"> <"IMAGE URL/DIR" (Mode 2
 <br>
 `<"IMAGE URL/DIR">` : (Mode 2 only!!) The URL or DIR that you want to put into the center. URL example: `"https://www.website.com/image.png"`, DIR example: `"C:\image.png"`
 <br>
-`<IRL/DIR>` : (Mode 2 only!!) Specify wether the image to put in the center is an URL or a DIR.
+`<IRL/DIR>` : (Mode 2 only!!) Specify whether the image to put in the center is an URL or a DIR.
 <br>
 
 # Example for Mode 1:
