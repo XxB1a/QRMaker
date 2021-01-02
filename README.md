@@ -1,5 +1,5 @@
 # QRMaker
-A Python program to make your own QR codes! Has support for both normal QR codes and QR codes with an Image in the center!
+A Python program to make your own QR codes! It has support for both normal QR codes and QR codes with an Image in the center!
 
 # Usage
 Usage: `python qrmaker.py <MODE> <FILENAME> <"QR DATA"> <"IMAGE URL/DIR" (Mode 2 only!)> <URL/DIR (Mode 2 only!)>`
