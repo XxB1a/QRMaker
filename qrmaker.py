@@ -34,7 +34,6 @@ else:
         filename = 'MyQR.png'
         print('Filename was not specified. Going with "MyQR"')
 
-
     try:
         text = sys.argv[3]
 
@@ -55,7 +54,6 @@ if mode in modes:
             print('No image was provided, going with the default one!')
             imgloc = 'https://svgtopng.com/files/6lldgu0p4szac8y5/o_1er05v6kt1ksorj9mhu1vfpe51b/thumb.png'
             url_or_dir = 'url'
-            
 
         try:
             url_or_dir = sys.argv[5]
@@ -63,7 +61,6 @@ if mode in modes:
         except IndexError:
             print('You didn\'t specify wether the Image in the center is on your PC or an URL, going with URL by default!')
             url_or_dir = 'url'
-            
 
         if url_or_dir in urls:
             response = requests.get(imgloc)
